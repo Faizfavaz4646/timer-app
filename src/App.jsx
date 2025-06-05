@@ -32,8 +32,9 @@ const resetTimer=()=>{
 
   return (
     <div className='min-h-screen bg-gray-500 flex justify-center items-center '>
-      <div className='bg-white p-6 rounded-lg text center w-70'>
+      <div className='bg-white p-12 rounded-full text center w-70 h-70 '>
         <h1 className='text-3xl font-bold text-center'>⏰Timer App</h1>
+        <hr class="border-t-2 border-gray-300 my-4" />
         <div className='text-center font-mono text-4xl '>{timeFormate()}</div>
         <div className='flex justify-center gap-4'>
           {!isRunning ? (
